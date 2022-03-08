@@ -3,17 +3,20 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = """
-Halo {}
+    START = ""
 
-Selamat datang {}
 
-Jika kamu tidak percaya bot ini, 
-1) gausah baca pesan ini
-2) blokir bot atau delete chat
 
-Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
-By @skyzu
+hallo  {}
+
+selamat datang 𝗤𝗕 𝗦𝗧𝗥𝗜𝗡𝗚
+
+jika km tida percaya bot ini, 
+1. gausa baca pesan ini
+2. blokir bot atau delete chat
+
+bot ini bekerja untuk membantu kamu mendapatkan string session via bot, mks anjing😺
+by @qbaeee
     """
 
     # Home Button
@@ -29,37 +32,33 @@ By @skyzu
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
-        [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ​", url="https://t.me/skyzu")],
+        [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ​", url="https://t.me/qbaeee")],
         [
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​​", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ​", callback_data="about")
         ],
-        [InlineKeyboardButton("ɪɴꜰᴏ ʙᴏᴛ ʟᴀɪɴɴʏᴀ​", url="https://t.me/ProjectSkyzu")],
+        [InlineKeyboardButton("ɪɴꜰᴏ ʙᴏᴛ ʟᴀɪɴɴʏᴀ​", url="https://t.me/mmmaself")],
     ]
 
     # Help Message
     HELP = """
-✨ **Available Commands** ✨
+✨cara penggunaan ✨
 
-/about - Tentang Bot ini
-/help - This Message
-/start - Mulai Bot
-/generate - Mulai Generating Session
-/cancel - Membatalkan process
-/restart - Membatalkan process
+/about - tentang bot ini
+/help - bantuan
+/start - mulai mot
+/generate - mulai generating session
+/cancel - membatalkan process
+/restart - process membatalkan
 """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 
-Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @SkyStringBot
+Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @stringqbot
 
-Group Support : [Gabung](https://t.me/skyzusupport)
 
-Framework : [Pyrogram](docs.pyrogram.org)
 
-Language : [Python](www.python.org)
-
-Developer : @skyzu
+Developer : @qbaeee
     """
