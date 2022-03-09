@@ -6,7 +6,9 @@ class Data:
     START = """
 Halo {}
 
-selamat datang {}
+Selamat datang {}
+
+
 ^
 jika km tida percaya bot ini, 
 1. gausa baca pesan ini
