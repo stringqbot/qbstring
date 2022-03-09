@@ -3,11 +3,9 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = ""
-
-
-
+    START = """
 hallo {}
+
 selamat datang 𝗤𝗕 𝗦𝗧𝗥𝗜𝗡𝗚
 
 jika km tida percaya bot ini, 
