@@ -43,7 +43,7 @@ by @qbaeee
 
 /about - tentang bot ini
 /help - bantuan
-/start - mulai mot
+/start - mulai bot
 /generate - mulai generating session
 /cancel - membatalkan process
 /restart - process membatalkan
