@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/Skyzu/skystring",
+  "repository": "https://github.com/Stringqbot/qbstring",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
