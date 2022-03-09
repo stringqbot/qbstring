@@ -6,7 +6,7 @@ class Data:
     START = """
 hallo {}
 
-selamat datang 𝗤𝗕 𝗦𝗧𝗥𝗜𝗡𝗚
+selamat datang {}
 
 jika km tida percaya bot ini, 
 1. gausa baca pesan ini
