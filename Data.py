@@ -7,7 +7,7 @@ class Data:
 Halo {}
 
 selamat datang {}
-
+^
 jika km tida percaya bot ini, 
 1. gausa baca pesan ini
 2. blokir bot atau delete chat
