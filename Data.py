@@ -7,7 +7,7 @@ class Data:
 
 
 
-hallo  {}
+hallo {}
 selamat datang 𝗤𝗕 𝗦𝗧𝗥𝗜𝗡𝗚
 
 jika km tida percaya bot ini, 
