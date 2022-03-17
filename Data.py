@@ -50,7 +50,7 @@ managed by @qbaeee
 
     # About Message
     ABOUT = """
-*tentang bot ini* 
+TENTANG BOT INI :
 
 𝗤𝗕𝗦𝗧𝗥𝗜𝗡𝗚 dibuat untuk membantu kamu mengambil  string session yang mudah dan aman!!
 Group Support : [join](https://t.me/ngapainbg)
