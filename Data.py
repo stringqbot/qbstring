@@ -4,14 +4,14 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Halo {}
-selamat datang {}
-
+halo {}
+━━━━━━━━━━━━━━━━━━━━━━━━
 jika kamu tidak percaya bot ini
 1. jgn baca pesan ini
 2. blokir bot atau delete chat
-bot ini bekerja untuk membantu km mendapatkan string session via bot
-by @qbaeee
+━━━━━━━━━━━━━━━━━━━━━━━━
+bot ini untuk membantu km mendapatkan string via bot.
+managed by @qbaeee
     """
 
     # Home Button
