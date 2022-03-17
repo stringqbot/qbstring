@@ -6,7 +6,7 @@ class Data:
     START = """
 halo {}
 ━━━━━━━━━━━━━━━━━━━━━━━━
-jika kamu tidak percaya bot ini
+jika m tidak percaya bot ini
 1. jgn baca pesan ini
 2. blokir bot atau delete chat
 ━━━━━━━━━━━━━━━━━━━━━━━━
@@ -18,18 +18,18 @@ managed by @qbaeee
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(" Start Generating Session ", callback_data="generate")],
-        [InlineKeyboardButton(text=" Kembali ", callback_data="home")]
+        [InlineKeyboardButton(" START GENERATING SESSION ", callback_data="generate")],
+        [InlineKeyboardButton(text=" kembali ", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton(" Start Generating Session ", callback_data="generate")]
+        [InlineKeyboardButton(" start generating session ", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton(" START GENERATING STRING ", callback_data="generate")],
-        [InlineKeyboardButton(" maintaned by ", url="https://t.me/ngapainbg")],
+        [InlineKeyboardButton(" maintaned by ", url="https://t.me/qbaeee")],
         [
             InlineKeyboardButton("HELP", callback_data="help"),
             InlineKeyboardButton("ABOUT", callback_data="about")
@@ -42,8 +42,8 @@ managed by @qbaeee
 
 /about - tentang bot ini
 /help - bantuan
-/start - mulai mot
-/generate - mulai menerating session
+/start - mulai bot
+/generate - mulai generating session
 /cancel - membatalkan process
 /restart - process membatalkan
 """
@@ -53,6 +53,6 @@ managed by @qbaeee
 TENTANG BOT INI :
 
 𝗤𝗕𝗦𝗧𝗥𝗜𝗡𝗚 dibuat untuk membantu kamu mengambil  string session yang mudah dan aman!!
-Group Support : [join](https://t.me/ngapainbg)
-Developer : @qbaeee
+group : [join](https://t.me/ngapainbg)
+developer : @qbaeee
     """
