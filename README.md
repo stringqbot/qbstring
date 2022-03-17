@@ -1,8 +1,6 @@
-# pyrogram and telethon string session bot [STRINGBOT](https://t.me/stringqbot)
+# pyrogram dan telethon string session bot [QB STRING](https://t.me/stringqbot)
 
 > A star ⭐ from you means a lot to us!
-
-<p align="center"><a href="https://www.github.com/rioprojectx"><img src="https://telegra.ph/file/7ec22c82f580a334dd13e.jpg" width="2000"></a></p>
 
 Telegram bot to generate pyrogram and telethon string session.
 
@@ -32,10 +30,6 @@ Telegram bot to generate pyrogram and telethon string session.
 - `BOT_TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
 - `DATABASE_URL` - Will be automatically added by Heroku.
 - `MUST_JOIN` - Username/ID of your telegram channel/group.
-
-## Functions
-
-> More features soon if suggested by you :)
 
 ## To-Do
 
