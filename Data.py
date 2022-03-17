@@ -6,10 +6,11 @@ class Data:
     START = """
 Halo {}
 selamat datang {}
-jika kamu tidak percaya bot ini, 
+
+jika kamu tidak percaya bot ini
 1. jgn baca pesan ini
 2. blokir bot atau delete chat
-bot ini bekerja untuk membantu kamu mendapatkan string session via bot
+bot ini bekerja untuk membantu km mendapatkan string session via bot
 by @qbaeee
     """
 
