@@ -22,8 +22,10 @@ from telethon.errors import (
 )
 
 ERROR_MESSAGE = "Oops! terjadi \n\n**error** : {} " \
-            "\n\ntolong laporan ke @mmmaself jika eror \
+            "\n\ntolong laporan ke @mmmaself jika eror" \
+"sensitive information and you if want to report this as " \
 
+            "this error message is not being logged
 
 @Client.on_message(filters.private & ~filters.forwarded & filters.command('generate'))
 async def main(_, msg):
