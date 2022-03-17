@@ -4,60 +4,53 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-    
-
- 
-hallo {}
-selamat datang 
-
-jika km tida percaya bot ini, 
-1. gausa baca pesan ini
-2. blokir bot atau delete chat
-
-bot ini bekerja untuk membantu kamu mendapatkan string session via bot, mks anjing😺
-by @qbaeee
+Halo {}
+Selamat datang {}
+Jika kamu tidak percaya bot ini, 
+1) gausah baca pesan ini
+2) blokir bot atau delete chat
+Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
+By @fckualot
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ​", callback_data="generate")],
-        [InlineKeyboardButton(text="ʙᴀᴄᴋ​", callback_data="home")]
+        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
+        [InlineKeyboardButton(text="🏠 Kembali 🏠", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")]
+        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
-        [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ​", url="https://t.me/qbaeee")],
+        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
+        [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/fckualot")],
         [
-            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​​", callback_data="help"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ​", callback_data="about")
+            InlineKeyboardButton("Cara Menggunakan Saya ❔", callback_data="help"),
+            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("ɪɴꜰᴏ ʙᴏᴛ ʟᴀɪɴɴʏᴀ​", url="https://t.me/mmmaself")],
+        [InlineKeyboardButton("♥ Info Bot Lain ♥", url="https://t.me/rioprojects")],
     ]
 
     # Help Message
     HELP = """
-✨cara penggunaan ✨
-
-/about - tentang bot ini
-/help - bantuan
-/start - mulai bot
-/generate - mulai generating session
-/cancel - membatalkan process
-/restart - process membatalkan
+✨ **Available Commands** ✨
+/about - Tentang Bot ini
+/help - This Message
+/start - Mulai Bot
+/generate - Mulai Generating Session
+/cancel - Membatalkan process
+/restart - Membatalkan process
 """
 
     # About Message
     ABOUT = """
 **About This Bot** 
-
-Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @stringqbot
-
-
-
+Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @stringriobot
+Group Support : [Gabung](https://t.me/riogroupsupport)
+Framework : [Pyrogram](docs.pyrogram.org)
+Language : [Python](www.python.org)
 Developer : @qbaeee
     """
