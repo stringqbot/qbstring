@@ -47,7 +47,7 @@ async def generate_session(bot, msg, telethon=False):
     try:
         api_id = int(api_id_msg.text)
     except ValueError:
-        await api_id_msg.reply('Tidak Benar API_ID (which must be an integer). Please start generating session again.', quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        await api_id_msg.reply('API_ID yang km masukan salah, silahkan buat sesi lagi..', quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     api_hash_msg = await bot.ask(user_id, 'TOLONG KIRIM `API_HASH`ANDA', filters=filters.text)
     if await cancelled(api_id_msg):
@@ -72,7 +72,8 @@ async def generate_session(bot, msg, telethon=False):
         await msg.reply('`API_ID` and `API_HASH` combination is invalid. Please start generating session again.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     except (PhoneNumberInvalid, PhoneNumberInvalidError):
-        await msg.reply('`PHONE_NUMBER` is invalid. Please start generating session again.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        await msg.reply('`NOMOR_TELEPON salah, silahkan 
+mulai buat sesi lagi..', reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     try:
         phone_code_msg = await bot.ask(user_id, "Please check for an OTP in official telegram account. If you got it, send OTP here after reading the below format. \nIf OTP is `12345`, **please send it as** `1 2 3 4 5`.", filters=filters.text, timeout=600)
