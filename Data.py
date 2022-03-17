@@ -7,31 +7,31 @@ class Data:
 Halo {}
 Selamat datang {}
 Jika kamu tidak percaya bot ini, 
-1) gausah baca pesan ini
-2) blokir bot atau delete chat
-Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
+1. gausa baca pesan ini
+2. blokir bot atau delete chat
+Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String session
 By @qbaeee
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Kembali 🏠", callback_data="home")]
+        [InlineKeyboardButton(" Start Generating Session ", callback_data="generate")],
+        [InlineKeyboardButton(text=" Kembali ", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+        [InlineKeyboardButton(" Start Generating Session ", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
+        [InlineKeyboardButton(" Start Generating Session ", callback_data="generate")],
         [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/ngapainbg")],
         [
             InlineKeyboardButton("Cara Menggunakan Saya ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton(" About ", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ Info Bot Lain ♥", url="https://t.me/ngapainbg")],
+        
     ]
 
     # Help Message
@@ -47,8 +47,8 @@ By @qbaeee
 
     # About Message
     ABOUT = """
-**About This Bot** 
-Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @stringriobot
+*tentang bot ini* 
+𝗤𝗕𝗦𝗧𝗥𝗜𝗡𝗚 dibuat untuk membantu mengambil  string session yang mudah dan aman!!
 Group Support : [Gabung](https://t.me/ngapainbg)
 Framework : [Pyrogram](docs.pyrogram.org)
 Language : [Python](www.python.org)
