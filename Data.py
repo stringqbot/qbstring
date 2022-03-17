@@ -10,7 +10,7 @@ Jika kamu tidak percaya bot ini,
 1) gausah baca pesan ini
 2) blokir bot atau delete chat
 Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
-By @fckualot
+By @qbaeee
     """
 
     # Home Button
@@ -26,30 +26,30 @@ By @fckualot
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/fckualot")],
+        [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/ngapainbg")],
         [
             InlineKeyboardButton("Cara Menggunakan Saya ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ Info Bot Lain ♥", url="https://t.me/rioprojects")],
+        [InlineKeyboardButton("♥ Info Bot Lain ♥", url="https://t.me/ngapainbg")],
     ]
 
     # Help Message
     HELP = """
-✨ **Available Commands** ✨
+✨ cara penggunaan ✨
 /about - Tentang Bot ini
-/help - This Message
+/help - bantuan
 /start - Mulai Bot
 /generate - Mulai Generating Session
 /cancel - Membatalkan process
-/restart - Membatalkan process
+/restart - process membatalkan
 """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @stringriobot
-Group Support : [Gabung](https://t.me/riogroupsupport)
+Group Support : [Gabung](https://t.me/ngapainbg)
 Framework : [Pyrogram](docs.pyrogram.org)
 Language : [Python](www.python.org)
 Developer : @qbaeee
