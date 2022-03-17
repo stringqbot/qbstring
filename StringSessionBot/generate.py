@@ -21,10 +21,8 @@ from telethon.errors import (
     PasswordHashInvalidError
 )
 
-ERROR_MESSAGE = "Oops! An exception occurred! \n\n**Error** : {} " \
-            "\n\nTolong Laporan ke @mmmaself jika eror " \
-            "sensitive information and you if want to report this as " \
-            "this error message is not being logged by us!"
+ERROR_MESSAGE = "Oops! terjadi \n\n**error** : {} " \
+            "\n\ntolong laporan ke @mmmaself jika eror \
 
 
 @Client.on_message(filters.private & ~filters.forwarded & filters.command('generate'))
@@ -65,10 +63,13 @@ async def generate_session(bot, msg, telethon=False):
     await client.connect()
     try:
         if telethon:
-            code = await client.send_code_request(phone_number)
+            code = await client.kirim_permintaan_kode(nomor_telepon)
         else:
             code = await client.send_code(phone_number)
-    except (ApiIdInvalid, ApiIdInvalidError):
+    except (ApiIdI
+
+
+API ID salah, API ID Error):
         await msg.reply('`API_ID` and `API_HASH` combination is invalid. Please start generating session again.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     except (PhoneNumberInvalid, PhoneNumberInvalidError):
