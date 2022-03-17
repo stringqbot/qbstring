@@ -1,4 +1,4 @@
-# Pyrogram and Telethon String Session Bot [StringBot](https://t.me/SkyStringBot)
+# pyrogram and telethon string session bot [STRINGBOT](https://t.me/stringqbot)
 
 > A star ⭐ from you means a lot to us!
 
@@ -18,21 +18,6 @@ Telegram bot to generate pyrogram and telethon string session.
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
 3. After deploying is complete, tap on "Manage App"
 4. Check the logs to see if your bot is ready!
-
-### Local Deploying
-
-1. Clone the repo
-   ```markdown
-   git clone https://github.com/Skyzu/StringSky
-   ```
-2. Get a DATABASE_URL. If you don't know how, deploy using Heroku Button only or delete database things as it's not a compulsion.
-   
-3. Edit `Config.py` and fill the needed variables
-
-4. Enter the directory
-   ```markdown
-   cd StringSessionBot
-   ```
 5. Run the file
    ```markdown
    python3 generator.py
@@ -64,16 +49,3 @@ Telegram bot to generate pyrogram and telethon string session.
 - [Lonami](https://github.com/Lonami) for his [Telethon](https://docs.telethon.dev) Library 
 - [aylak](https://t.me/ayIak) for **Telethon** idea of [v1.0.0](https://github.com/StarkBotsIndustries/StringSessionBot/commit/48e06bb6d9ed156797ef4bc0dab88820fef948f3)
 
-## Support
-
-Channel :- [Project](https://t.me/ProjectSkyzu)
-
-Group Chat :- [Group support](https://t.me/skyzusupport)
-
-## :)
-
-[![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/rioprojectx)
-
-[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](https://github.com/rioprojectx)
