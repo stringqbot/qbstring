@@ -7,9 +7,9 @@ class Data:
 Halo {}
 Selamat datang {}
 Jika kamu tidak percaya bot ini, 
-1. gausa baca pesan ini
+1. jgn baca pesan ini
 2. blokir bot atau delete chat
-Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String session
+Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot
 By @qbaeee
     """
 
@@ -25,11 +25,11 @@ By @qbaeee
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton(" Start Generating Session ", callback_data="generate")],
-        [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/ngapainbg")],
+        [InlineKeyboardButton(" START GENERATING STRING ", callback_data="generate")],
+        [InlineKeyboardButton(" maintaned by ", url="https://t.me/ngapainbg")],
         [
-            InlineKeyboardButton("Cara Menggunakan Saya ❔", callback_data="help"),
-            InlineKeyboardButton(" About ", callback_data="about")
+            InlineKeyboardButton("HELP&COMMANDS", callback_data="help"),
+            InlineKeyboardButton(" ABOUT ", callback_data="about")
         ],
         
     ]
@@ -48,9 +48,7 @@ By @qbaeee
     # About Message
     ABOUT = """
 *tentang bot ini* 
-𝗤𝗕𝗦𝗧𝗥𝗜𝗡𝗚 dibuat untuk membantu mengambil  string session yang mudah dan aman!!
+𝗤𝗕𝗦𝗧𝗥𝗜𝗡𝗚 dibuat untuk membantu kamu mengambil  string session yang mudah dan aman!!
 Group Support : [Gabung](https://t.me/ngapainbg)
-Framework : [Pyrogram](docs.pyrogram.org)
-Language : [Python](www.python.org)
 Developer : @qbaeee
     """
