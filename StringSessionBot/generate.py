@@ -47,7 +47,7 @@ async def generate_session(bot, msg, telethon=False):
     try:
         api_id = int(api_id_msg.text)
     except ValueError:
-        await api_id_msg.reply('API_ID salah. harap bikin session baru lagi.', quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        await api_id_msg.reply('API_ID salah, harap bikin session baru lagi.', quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     api_hash_msg = await bot.ask(user_id, 'silahkan kirim `API_HASH` anda', filters=filters.text)
     if await cancelled(api_id_msg):
