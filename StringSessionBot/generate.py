@@ -39,7 +39,7 @@ async def main(_, msg):
 
 
 async def generate_session(bot, msg, telethon=False):
-    await msg.reply("memulai {} session generation ..".format("Telethon" if telethon else "Pyrogram"))
+    await msg.reply("memulai {} session generation ..".format("telethon" if telethon else "pyrogram"))
     user_id = msg.chat.id
     api_id_msg = await bot.ask(user_id, 'silahkan kirim  `API_ID` anda', filters=filters.text)
     if await cancelled(api_id_msg):
