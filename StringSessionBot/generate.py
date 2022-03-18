@@ -32,8 +32,8 @@ async def main(_, msg):
     await msg.reply(
         "Silahkan Tekan String Mana Yang Ingin Kamu Ambil",
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("Pyrogram", callback_data="pyrogram"),
-            InlineKeyboardButton("Telethon", callback_data="telethon")
+            InlineKeyboardButton("pyrogram", callback_data="pyrogram"),
+            InlineKeyboardButton("telethon", callback_data="telethon")
         ]])
     )
 
@@ -41,19 +41,19 @@ async def main(_, msg):
 async def generate_session(bot, msg, telethon=False):
     await msg.reply("memulai {} session generation ..".format("Telethon" if telethon else "Pyrogram"))
     user_id = msg.chat.id
-    api_id_msg = await bot.ask(user_id, 'silahkan kirim  `API_ID`anda', filters=filters.text)
+    api_id_msg = await bot.ask(user_id, 'silahkan kirim  `API_ID` anda', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     try:
         api_id = int(api_id_msg.text)
     except ValueError:
-        await api_id_msg.reply('API_ID salah harap bikin session baru lagi.', quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        await api_id_msg.reply('API_ID salah. harap bikin session baru lagi.', quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
-    api_hash_msg = await bot.ask(user_id, 'silahkan kirim `API_HASH`anda', filters=filters.text)
+    api_hash_msg = await bot.ask(user_id, 'silahkan kirim `API_HASH` anda', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     api_hash = api_hash_msg.text
-    phone_number_msg = await bot.ask(user_id, 'silahkan masukan `NOMOR_TELEPON` dengan kode nomor. \nExample : `+628xxxxxxx`', filters=filters.text)
+    phone_number_msg = await bot.ask(user_id, 'silahkan masukan `NOMOR_TELEPON` dengan kode nomor. \ncontoh : `+628xxxxxxx`', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     phone_number = phone_number_msg.text
