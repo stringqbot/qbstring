@@ -39,9 +39,9 @@ async def main(_, msg):
 
 
 async def generate_session(bot, msg, telethon=False):
-    await msg.reply("Memulai {} Session Generation...".format("Telethon" if telethon else "Pyrogram"))
+    await msg.reply("memulai {} session generation ..".format("Telethon" if telethon else "Pyrogram"))
     user_id = msg.chat.id
-    api_id_msg = await bot.ask(user_id, 'Tolong Kirim  `API_ID`', filters=filters.text)
+    api_id_msg = await bot.ask(user_id, 'silahkan kirim  `API_ID`anda', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     try:
@@ -49,11 +49,11 @@ async def generate_session(bot, msg, telethon=False):
     except ValueError:
         await api_id_msg.reply('Tidak Benar API_ID (which must be an integer). Please start generating session again.', quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
-    api_hash_msg = await bot.ask(user_id, 'Tolong Kirim `API_HASH`', filters=filters.text)
+    api_hash_msg = await bot.ask(user_id, 'silahkan kirim `API_HASH`anda', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     api_hash = api_hash_msg.text
-    phone_number_msg = await bot.ask(user_id, 'Sekarang Kirkm `PHONE_NUMBER` Dengan Kode Nomor. \nExample : `+628xxxxxxx`', filters=filters.text)
+    phone_number_msg = await bot.ask(user_id, 'silahkan masukan `NOMOR_TELEPON` dengan kode nomor. \nExample : `+628xxxxxxx`', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     phone_number = phone_number_msg.text
