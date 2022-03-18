@@ -122,13 +122,13 @@ async def generate_session(bot, msg, telethon=False):
 
 async def cancelled(msg):
     if "/cancel" in msg.text:
-        await msg.reply("Membatalkan Process!", quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        await msg.reply("membatalkan proses!", quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return True
     elif "/restart" in msg.text:
         await msg.reply("Memulai Ulang Bot!", quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return True
-    elif msg.text.startswith("/"):  # Bot Commands
-        await msg.reply("Membatalkan generation process!", quote=True)
+    elif msg.text.startswith("/"):  # BOT COMMAND
+        await msg.reply("membatalkan generation process!", quote=True)
         return True
     else:
         return False
@@ -137,10 +137,10 @@ async def cancelled(msg):
 # @Client.on_message(filters.private & ~filters.forwarded & filters.command(['cancel', 'restart']))
 # async def formalities(_, msg):
 #     if "/cancel" in msg.text:
-#         await msg.reply("Membatalkan Semua Processes!", quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
+#         await msg.reply("membatalkan proses!", quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
 #         return True
 #     elif "/restart" in msg.text:
-#         await msg.reply("Memulai Ulang Bot!", quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
+#         await msg.reply("memulai ulang bot!", quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
 #         return True
 #     else:
 #         return False
