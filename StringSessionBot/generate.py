@@ -72,14 +72,14 @@ async def generate_session(bot, msg, telethon=False):
         await msg.reply('`API_ID` and `API_HASH` combination is invalid. Please start generating session again.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     except (PhoneNumberInvalid, PhoneNumberInvalidError):
-        await msg.reply('`NOMOR_TELEPON` salah coba bikin session baru lagi.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        await msg.reply('`NOMOR_TELEPON` salah coba cek dan bikin session baru lagi.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     try:
         phone_code_msg = await bot.ask(user_id, "silahkan periksa kode OTP dari akun telegram resmi, kirim kode OTP kesini, jika kode OTP  . \nIf OTP is `12345`, **tolong kirimkan seperti ** `1 2 3 4 5`.", filters=filters.text, timeout=600)
         if await cancelled(api_id_msg):
             return
     except TimeoutError:
-        await msg.reply('Time limit reached of 10 minutes. Please start generating session again.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        await msg.reply('batas waktu 2 menit. silahkan membuat sesi baru.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     phone_code = phone_code_msg.text.replace(" ", "")
     try:
@@ -97,7 +97,7 @@ async def generate_session(bot, msg, telethon=False):
         try:
             two_step_msg = await bot.ask(user_id, 'Your account has enabled two-step verification. Please provide the password.', filters=filters.text, timeout=300)
         except TimeoutError:
-            await msg.reply('Time limit reached of 5 minutes. Please start generating session again.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
+            await msg.reply('batas waktu 2 menit. silahkan membuat ulang sesi baru lagi.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
             return
         try:
             password = two_step_msg.text
