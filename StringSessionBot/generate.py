@@ -57,7 +57,7 @@ async def generate_session(bot, msg, telethon=False):
     if await cancelled(api_id_msg):
         return
     phone_number = phone_number_msg.text
-    await msg.reply("Sending OTP...")
+    await msg.reply("mengirim kode OTP ..")
     if telethon:
         client = TelegramClient(StringSession(), api_id, api_hash)
     else:
