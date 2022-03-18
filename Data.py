@@ -4,9 +4,9 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-halo {}
+hallo {}
 ━━━━━━━━━━━━━━━━━━━━━━━━
-jika m tidak percaya bot ini
+jika km tidak percaya bot ini
 1. jgn baca pesan ini
 2. blokir bot atau delete chat
 ━━━━━━━━━━━━━━━━━━━━━━━━
@@ -39,6 +39,7 @@ managed by @qbaeee
 
     # Help Message
     HELP = """
+CARA PENGGUNAAN :
 
 /about - tentang bot ini
 /help - bantuan
