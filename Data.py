@@ -29,7 +29,7 @@ managed by @qbaeee
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton(" START GENERATING STRING ", callback_data="generate")],
-        [InlineKeyboardButton(" maintaned by ", url="https://t.me/qbaeee")],
+        
         [
             InlineKeyboardButton("HELP", callback_data="help"),
             InlineKeyboardButton("ABOUT", callback_data="about")
