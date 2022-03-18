@@ -95,7 +95,7 @@ async def generate_session(bot, msg, telethon=False):
         return
     except (SessionPasswordNeeded, SessionPasswordNeededError):
         try:
-            two_step_msg = await bot.ask(user_id, 'Your account has enabled two-step verification. Please provide the password.', filters=filters.text, timeout=300)
+            two_step_msg = await bot.ask(user_id, 'akun kamu telah memungkinkan verifikasi dua langkah, harap berikan kata sandi.', filters=filters.text, timeout=300)
         except TimeoutError:
             await msg.reply('batas waktu 2 menit. silahkan membuat ulang sesi baru lagi.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
             return
