@@ -88,10 +88,10 @@ async def generate_session(bot, msg, telethon=False):
         else:
             await client.sign_in(phone_number, code.phone_code_hash, phone_code)
     except (PhoneCodeInvalid, PhoneCodeInvalidError):
-        await msg.reply('OTP is invalid. Please start generating session again.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        await msg.reply('kode OTP tidak valid, silahkan membuat sesi lagi.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     except (PhoneCodeExpired, PhoneCodeExpiredError):
-        await msg.reply('OTP is expired. Please start generating session again.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        await msg.reply('kode OTP kadaluarsa. silahkan membuat sesi lagi.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     except (SessionPasswordNeeded, SessionPasswordNeededError):
         try:
