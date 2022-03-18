@@ -30,10 +30,10 @@ ERROR_MESSAGE = "Oops! An exception occurred! \n\n**Error** : {} " \
 @Client.on_message(filters.private & ~filters.forwarded & filters.command('generate'))
 async def main(_, msg):
     await msg.reply(
-        "Silahkan Tekan String Mana Yang Ingin Kamu Ambil",
+        "SILAHKAN TEKAN STRING MANA YANG INGIN KAMU AMBIL",
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("pyrogram", callback_data="pyrogram"),
-            InlineKeyboardButton("telethon", callback_data="telethon")
+            InlineKeyboardButton("PYROGRAM", callback_data="pyrogram"),
+            InlineKeyboardButton("TELETHON", callback_data="telethon")
         ]])
     )
 
