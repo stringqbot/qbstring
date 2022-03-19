@@ -69,7 +69,7 @@ async def generate_session(bot, msg, telethon=False):
         else:
             code = await client.send_code(phone_number)
     except (ApiIdInvalid, ApiIdInvalidError):
-        await msg.reply('`API_ID` and `API_HASH` salah, harap membuat sesi baru lagi.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        await msg.reply('`API_ID` dan `API_HASH` salah, harap membuat sesi baru lagi.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     except (PhoneNumberInvalid, PhoneNumberInvalidError):
         await msg.reply('`NOMOR_TELEPON` salah coba cek dan bikin session baru lagi.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
