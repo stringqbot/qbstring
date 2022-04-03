@@ -12,8 +12,8 @@ jika km tidak percaya bot ini
 ━━━━━━━━━━━━━━━━━━━━━━━━
 bot ini untuk membantu km 
 mendapatkan string via bot..
-━━━━━━━━━━━━━━━━━━━━━━━
-managed by @akudnr
+━━━━━━━━━━━━━━━━━━━━━━━━
+managed by @qbaeee
     """
 
     # Home Button
@@ -53,7 +53,7 @@ CARA PENGGUNAAN :
     ABOUT = """
 TENTANG BOT INI :
 
-𝗤𝗕𝗦𝗧𝗥𝗜𝗡𝗚 dibuat untuk membantu kamu mengambil  string session yang mudah dan aman!!
+𝗤𝗕𝗦𝗧𝗥𝗜𝗡𝗚 dibuat untuk membantu km mengambil  string session yang mudah dan aman!!
 channel : [join](https://t.me/mmmaself)
-developer : @akudnr
+developer : @qbaeee
     """
