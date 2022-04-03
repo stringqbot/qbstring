@@ -53,7 +53,7 @@ CARA PENGGUNAAN :
     ABOUT = """
 TENTANG BOT INI :
 
-𝗤𝗕𝗦𝗧𝗥𝗜𝗡𝗚 dibuat untuk membantu km mengambil  string session yang mudah dan aman!!
+𝗤𝗕 𝗦𝗧𝗥𝗜𝗡𝗚 untuk membantu km mengambil string session yang mudah dan aman!!
 channel : [join](https://t.me/mmmaself)
 developer : @qbaeee
     """
