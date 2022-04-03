@@ -11,7 +11,7 @@ jika km tidak percaya bot ini
 2. blokir bot atau delete chat
 ━━━━━━━━━━━━━━━━━━━━━━━━
 bot ini untuk membantu km 
-mendapatkan string via bot..
+mendapatkan string via bot 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 managed by @qbaeee
     """
