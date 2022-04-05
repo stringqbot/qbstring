@@ -54,6 +54,6 @@ CARA PENGGUNAAN :
 TENTANG BOT INI :
 
 𝗤𝗕 𝗦𝗧𝗥𝗜𝗡𝗚 untuk membantu km mengambil string session yang mudah dan aman!!
-channel : [join](https://t.me/mmmaself)
+channel : [join](https://t.me/mmmaself) ~ [join] (https://t.me/mmwrld)
 developer : @qbaeee
     """
