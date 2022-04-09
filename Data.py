@@ -13,7 +13,7 @@ jika km tidak percaya bot ini
 bot ini untuk membantu km 
 mendapatkan string via bot 
 ━━━━━━━━━━━━━━━━━━━━━━━━
-managed by: qb
+
     """
 
     # Home Button
@@ -55,5 +55,5 @@ TENTANG BOT INI :
 
 𝗤𝗕 𝗦𝗧𝗥𝗜𝗡𝗚 untuk membantu km mengambil string session yang mudah dan aman!!
 channel : [join](https://t.me/mmmaself) 
-developer : qb
+
     """
