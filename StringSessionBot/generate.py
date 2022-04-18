@@ -21,8 +21,8 @@ from telethon.errors import (
     PasswordHashInvalidError
 )
 
-ERROR_MESSAGE = "Oops! An exception occurred! \n\n**Error** : {} " \
-            "\n\nTolong Laporan ke @mmmaself jika eror " \
+ERROR_MESSAGE = "oops! terjadi kesalahan! \n\n**error** : {} " \
+            "\n\nsilahkan hubungi @mmmaself jika error " \
             "sensitive information and you if want to report this as " \
             "this error message is not being logged by us!"
 
